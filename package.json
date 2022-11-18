@@ -5,16 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src"
+    "start": "node src",
+    "scrapp": "nodemon src/scrapper.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "2.8.5",
-    "express": "4.18.2",
-    "mongodb": "4.12.0",
-    "morgan": "1.10.0",
+    "axios": "1.1.3",
     "puppeteer": "19.2.2"
   },
   "devDependencies": {
